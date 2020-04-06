@@ -30,3 +30,6 @@ out/
 
 ### VS Code ###
 .vscode/
+
+## Fix problem with out package in hexagon architecture ##
+!**/src/main/**/out
