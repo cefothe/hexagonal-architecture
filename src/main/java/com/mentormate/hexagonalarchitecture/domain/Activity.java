@@ -1,16 +1,17 @@
 package com.mentormate.hexagonalarchitecture.domain;
 
 import java.time.LocalDateTime;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
+
 import lombok.Value;
 
 
 /**
  * A money transfer activity between {@link Account}s.
  */
-@Value
+@AllArgsConstructor
 public class Activity {
 
     @Getter
